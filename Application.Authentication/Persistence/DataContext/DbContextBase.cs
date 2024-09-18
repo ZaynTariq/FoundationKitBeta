@@ -2,7 +2,7 @@
 
 using FoundationKit.Authentication.Core.Entities.AccountEntities;
 using FoundationKit.Authentication.Core.Entities.RoleEntities;
-using FoundationKit.Authentication.Persistence.EntityConfigurations;
+using FoundationKit.Authentication.Persistence.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 public class DbContextBase<TKey, TUser, TRole>(DbContextOptions dbContextOptions) : DbContext(dbContextOptions)

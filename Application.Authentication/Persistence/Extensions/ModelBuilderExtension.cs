@@ -1,10 +1,9 @@
-﻿namespace FoundationKit.Authentication.Persistence.EntityConfigurations;
-
+﻿namespace FoundationKit.Authentication.Persistence.Extensions;
 using FoundationKit.Authentication.Core.Entities.AccountEntities;
 using FoundationKit.Authentication.Core.Entities.RoleEntities;
+
 using Microsoft.EntityFrameworkCore;
-
-
+using System.Collections.Generic;
 
 public static class ModelBuilderExtensions
 {

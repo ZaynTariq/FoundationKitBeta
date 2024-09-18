@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Application.Authentication\FoundationKit.Authentication.csproj" />
     <ProjectReference Include="..\FoundationKit.Shared\FoundationKit.Shared.csproj" />
   </ItemGroup>
